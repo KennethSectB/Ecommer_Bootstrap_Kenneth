@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PC's</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+ <style>
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: blur(3px);
+    }
+
+    .contenido {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+<body>
+    <video autoplay muted loop playsinline class="video-bg">
+    <source src="img/VideoFondo.mp4" type="video/mp4">
+  </video>
+
+  <nav style="background-color: rgb(0, 119, 255); top: 0; z-index: 1030;" class="navbar navbar-expand-lg position-sticky border border-black border-5">
+    <div class="container">
+      <a class="navbar-brand" href="#">LetsPlay!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="Index.html"><p style="font-weight: bolder;">Regresar</p></a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Bienvenido a la Tienda de LetsPlay</h1>
+      <p class="lead">Aqui encontraras ofertas exclusivas en laptops, PCs y accesorios de ultima generacion</p>
+    </div>
+  </header>
+
+
+  <section id="productos" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 text-light text-light">Todos los Productos que Poseemos Aqui!</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/Laptop1.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Laptop MSI</h5>
+              <p class="card-text">Ryzen 5 5700X3D, RTX 3060 8gb, 32GB RAM, 1TB</p>
+              <p class="text-success fw-bold">45,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/panorama_air_cooled_RGB_front_view_1000x1000_0cbbf615-31c1-436e-892d-72337b488e8f.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">PC de Escritorio Gama Alta</h5>
+              <p class="card-text">Ryzen 9950X, RTX 4090 16GB, (4x16)64GB RAM, 2TB M.2 Kingstone</p>
+              <p class="text-success fw-bold">90,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/700.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Mouse PAD RGB Corsair 700</h5>
+              <p class="card-text"></p>
+              <p class="text-success fw-bold">2,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+    <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/Laptop2.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Laptop MSI</h5>
+              <p class="card-text">Intel 5 12900KF, RTX 2080 6gb, 32GB RAM, 500GB</p>
+              <p class="text-success fw-bold">32,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/ps5.webp" class="card-img-top" alt="" style="margin-top: 100px; margin-bottom: 70px;">
+            <div class="card-body">
+              <h5 class="card-title">P5</h5>
+              <p class="card-text">1TB de Espacio</p>
+              <p class="text-success fw-bold">20,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/r9.webp" class="card-img-top p-3" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Ryzen 9 9950X</h5>
+              <p class="card-text"></p>
+              <p class="text-success fw-bold">23,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+            <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/xbox.webp" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Xbox Series/X</h5>
+              <p class="card-text">1TB de Espacio</p>
+              <p class="text-success fw-bold">20,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/STEAM-DECK-CONSOLA___.png" class="card-img-top" alt="" style="margin-top: 100px; margin-bottom: 70px;">
+            <div class="card-body">
+              <h5 class="card-title">Steam Deck</h5>
+              <p class="card-text">512GB, 90Hz, 1280x900, 16GB RAM</p>
+              <p class="text-success fw-bold">90,000 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/k70.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Teclado Mecanico Corsair K70</h5>
+              <p class="card-text"></p>
+              <p class="text-success fw-bold">4,500 Lps</p>
+              <a href="#" class="btn btn-primary">Comprar!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="acerca" class="py-5 mb-5" style="background-color: #ffc400cb;">
+    <div class="container border border-black border-2 p-2">
+      <h2 class="text-center mb-4 text-light" style="font-weight: bolder;">V.I.P</h2>
+      <p class="text-center text-light">Quieres disfrutar de descuentos, sorteos y ventas especiales? Pues unite hoy al VIP de LetsPlay</p>
+      <div class="text-center">
+        <a href="VIP.html" class="btn btn-primary">Saber Mas!</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-5 bg-info">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6 bg-primary rounded-5 p-5">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary bg-info">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      &copy; 2025 LetsPlay. Todos los derechos reservados.
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
